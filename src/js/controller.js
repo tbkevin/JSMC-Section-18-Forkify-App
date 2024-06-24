@@ -125,6 +125,10 @@ const controlAddRecipe =async function (newRecipe) {
   }
 }
 
+const newFeature = function () {
+  console.log('Welcome to the applicaction');
+}
+
 //  NT Listening for load and hasChange events NT
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
